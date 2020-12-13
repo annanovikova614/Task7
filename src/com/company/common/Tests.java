@@ -115,6 +115,5 @@ public class Tests {
         else {
             System.out.println("Не все тесты пройдены");
         }
-
     }
 }
