@@ -10,11 +10,11 @@ public class Main {
     public static void main(String[] args) {
         printResultTests();
         System.out.println("Введите ваш собственный тест");
-        int arraySize = readVariable("размер массива:");
+        int arraySize = readVariable("Размер массива:");
 
         int array[] = new int[arraySize];
         for (int i = 0; i < arraySize; i++) {
-            array[i] = readVariable("элементы массива:");
+            array[i] = readVariable("Элементы массива:");
         }
 
         int result = solution(array);
@@ -28,8 +28,6 @@ public class Main {
     }
 
     public static void printResult(int result) {
-        System.out.printf("масимальный элемент: %d",result);
+        System.out.printf("Масимальный элемент: %d",result);
     }
-
-
 }
