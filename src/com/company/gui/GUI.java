@@ -6,18 +6,17 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class GUI extends JFrame{
+public class GUI extends JFrame {
     private JTextField textFieldArray;
     private JButton buttonProcess;
     private JPanel GUIPanel;
     private JLabel labelAnswer;
 
-    public GUI(){
+    public GUI() {
         setSize(700,500);
         setContentPane(GUIPanel);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setVisible(true);
-
 
         buttonProcess.addActionListener(new ActionListener() {
             @Override
@@ -38,7 +37,6 @@ public class GUI extends JFrame{
                 labelAnswer.setText(Solution.solution(results)+"");
             }
         });
-
 
     }
 }
