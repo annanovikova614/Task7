@@ -1,10 +1,10 @@
 package com.company.common;
 
-import com.company.common.Solution.solution;
+import static com.company.common.Solution.solution;
 
 public class Tests {
     public static boolean test1GetMaxIncreaseOrDescent() {
-        int array[] = new int[]{6,5,7,5,3,3};
+        int array[] = new int[]{6,5,7,8,3,3};
         int result = solution(array);
         if (3 == result)
             return true;
