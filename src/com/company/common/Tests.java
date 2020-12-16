@@ -1,6 +1,6 @@
 package com.company.common;
 
-import static com.company.common.Solution.solution;
+import com.company.common.Solution.solution;
 
 public class Tests {
     public static boolean test1GetMaxIncreaseOrDescent() {
