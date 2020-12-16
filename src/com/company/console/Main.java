@@ -3,8 +3,8 @@ package com.company.console;
 
 import java.util.Scanner;
 
-import static com.company.common.Tests.printResultTests;
-import static com.company.common.Solution.solution;
+import com.company.common.Tests.printResultTests;
+import com.company.common.Solution.solution;
 
 public class Main {
     public static void main(String[] args) {
